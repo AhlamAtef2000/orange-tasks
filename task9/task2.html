@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+            .color{
+                background-color: rgb(216, 212, 212);
+                height: 1000px;
+            }
+            .photo {
+                display: grid;
+                grid-template-columns: repeat(10, 110px);
+                grid-template-rows: repeat(10, 100px);
+                gap: 10px;
+                column-gap: 10px;
+                row-gap: 27px;
+                height: 550px;
+
+            }
+
+
+            .orange{
+                width: 720px;
+                grid-area :  1 / 1 / 9 / 8;
+            }
+
+            .green{
+                width: 350px;
+                height: 250px;
+                grid-area: 1 / 7 / 8 / 7;
+                }
+
+                .blue{
+            width: 350px;
+    height: 250px;
+    grid-area: 1 / 10 / 30 / 10;
+
+            }   
+        .black{
+            width: 360px;
+            height: 260px;
+            grid-area: 3 / 7 / 7 / 20;
+
+                }
+                
+        .red{
+            width: 360px;
+            height: 250px;
+                grid-area: 3 / 10 / 7 / 18;
+            }
+                .text{
+                display: grid;
+                grid-template-columns: repeat(5, 150px);
+                column-gap: 150px;
+                text-align: center;
+                    }
+            
+                .text div{
+            width: 250px;
+            align-content: center;
+            text-align: center;
+            }
+
+                </style>
+    </head>
+    <body>
+            <div class="color">
+        <div class="photo">
+            <div class="orange"><img src="orange.png"></div>
+            <div class="green"><img src="Screenshot 2024-12-14 213113.png"></div>
+            <div class="blue"><img src="Screenshot 2024-12-14 213758.png"></div>
+            <div class="black"><img src="Screenshot 2024-12-14 213825.png"></div>
+            <div class="red"><img src="Screenshot 2024-12-14 213146.png"></div>
+        </div>
+
+            <div class="text">
+            <div class="pink" style="background-color: orange;"> <img src="Screenshot 2024-12-14 213214.png">Mobile offers</div>
+            <div class="earth" style="background-color:white;"><img src="Screenshot 2024-12-14 213237.png">Internet Offers</div>
+            <div class="whatsh" style="background-color:white;"><img src="Screenshot 2024-12-14 213300.png">Devices</div>
+            <div class="plane" style="background-color:white;"><img src="Screenshot 2024-12-14 213324.png">International & Roaming</div>
+            <div class="phon" style="background-color:white;"><img src="Screenshot 2024-12-14 213354.png">Fixed Lines</div>
+            </div>
+
+        </div>
+        </body>
+</html>
